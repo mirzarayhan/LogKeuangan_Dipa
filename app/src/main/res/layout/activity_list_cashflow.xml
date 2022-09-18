@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp"
+    tools:context=".ListCashFlow">
+
+    <ImageButton
+        android:id="@+id/imageCategory"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/arrowred"
+        android:layout_alignParentRight="true"/>
+
+    <TextView
+        android:id="@+id/symbol"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="[Symbol]"/>
+
+    <TextView
+        android:id="@+id/money"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@id/symbol"
+        android:text="Money"/>
+
+    <TextView
+        android:id="@+id/descCashFlow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/symbol"
+        android:layout_marginLeft="10dp"
+        android:text="Keterangan"/>
+
+    <TextView
+        android:id="@+id/dateCashflow"
+        android:layout_below="@id/descCashFlow"
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_height="wrap_content"
+        android:text="tanggal" />
+
+
+</RelativeLayout>
