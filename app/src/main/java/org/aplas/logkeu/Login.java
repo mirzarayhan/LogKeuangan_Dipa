@@ -23,7 +23,7 @@ public class Login extends AppCompatActivity{
         username = (EditText)findViewById(R.id.username);
         password = (EditText)findViewById(R.id.password);
         login = (Button)findViewById(R.id.btnLogInLog);
-        register = (Button)findViewById(R.id.btnRegisInLog);
+        /*register = (Button)findViewById(R.id.btnRegisInLog);*/
 
         Boolean checkSession = db.sessionCheck("ada");
         if(checkSession == true){
@@ -58,13 +58,13 @@ public class Login extends AppCompatActivity{
             }
         });
 
-        register.setOnClickListener(new View.OnClickListener(){
+        /*register.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view) {
                 Intent registIntent = new Intent(Login.this, Register.class);
                 startActivity(registIntent);
                 finish();
             }
-        });
+        });*/
     }
 }

@@ -78,7 +78,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        // tambah pemasukan
+        // tambah pengeluaran
         tambahPengeluaran.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -88,7 +88,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        // tambah pemasukan
+        // detail list keuangan
         dataKeuangan.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
